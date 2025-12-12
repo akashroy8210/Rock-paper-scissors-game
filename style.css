@@ -1,0 +1,86 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+/* heading style */
+header{
+    background-color: rgb(5, 27, 60);
+    color: white;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+/* body style */
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.box{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+}
+
+button{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: none;
+}
+
+button:hover{
+    border: 5px solid rgb(5, 27, 60);
+}
+
+#rock{
+    background-image: url(image/rock.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#scissors{
+    background-image: url(image/scissors.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#paper{
+    background-image: url(image/paper.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.counts{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 3rem;
+}
+
+.count{
+    text-align: center;
+    gap: 2rem;
+}
+/* bottom style */
+
+#msg{
+    background-color: rgb(5, 27, 60);
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
