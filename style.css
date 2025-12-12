@@ -46,19 +46,19 @@ button:hover{
 }
 
 #rock{
-    background-image: url(image/rock.png);
+    background-image: url(rock.png);
     background-size: cover;
     background-position: center;
 }
 
 #scissors{
-    background-image: url(image/scissors.png);
+    background-image: url(scissors.png);
     background-size: cover;
     background-position: center;
 }
 
 #paper{
-    background-image: url(image/paper.png);
+    background-image: url(paper.png);
     background-size: cover;
     background-position: center;
 }
@@ -83,4 +83,5 @@ button:hover{
     padding: 2rem;
     font-size: 3rem;
     text-align: center;
+
 }
